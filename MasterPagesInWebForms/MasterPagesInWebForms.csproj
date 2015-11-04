@@ -90,9 +90,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Header.ascx" />
     <Content Include="Web.config" />
     <Content Include="Views\Home\RazorView.aspx" />
     <Content Include="WebForm.aspx" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -109,6 +111,9 @@
     <Content Include="packages.config" />
     <Content Include="Site.Master" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="MasterPageWithControls.Master" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\WithControls.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

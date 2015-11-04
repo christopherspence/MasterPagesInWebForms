@@ -15,5 +15,10 @@ namespace MasterPagesInWebForms.Controllers
         {
             return this.RazorView("Index", new IndexModel { FoSho = true });
         }
+
+        public ActionResult WithControls()
+        {
+            return View(new IndexModel { FoSho = true });
+        }
     }
 }
